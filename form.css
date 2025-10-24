@@ -41,11 +41,22 @@
     border-color: #3498db;
 }
 
+.form-group input.input-valid {
+    border-color: #27ae60;
+    border-width: 2px;
+}
+
+.form-group input.input-invalid {
+    border-color: #e74c3c;
+    border-width: 2px;
+}
+
 .validation-icon {
     position: absolute;
     right: 10px;
-    top: 38px;
-    font-size: 1.2rem;
+    top: 42px;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .valid {
@@ -146,3 +157,4 @@ th {
 .btn-action:hover {
     opacity: 0.8;
 }
+
